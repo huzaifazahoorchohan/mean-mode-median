@@ -95,7 +95,7 @@ const App = () => {
         <div>
             <h1>STATISTIC SUPPORT APP</h1>
             <h4>developed by <span style={{ color: 'red' }}>BESHARAM FILMS</span></h4>
-            <h4>UNDER DEVELOPMENT - DON'T USE NOW</h4>
+            <h4 style = {{color:'blue'}}>UNDER DEVELOPMENT - DON'T USE NOW</h4>
             <div className='container'>
                 <div className='inBox'>
                     <input type='number' name="class1" value={values.class1} onChange={inputEvent} placeholder='Class 1' autoComplete='off' />
